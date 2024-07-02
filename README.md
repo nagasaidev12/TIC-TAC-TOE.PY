@@ -26,18 +26,3 @@ Alpha-Beta pruning improves efficiency greatly by pruning branches that doesn't 
 
 This allows our AI agent to play perfectly and never lose a game.
 
-#CHATBOT WITH RULE-BASED RESPONSES
-
-This is a simple rule-based chatbot that allows defining responses using regular expressions. It checks the user statement against each rule sequentially and outputs the first match.
-
-Firstly,the code imports the re module for regular expressions.
-
-Creates a rules dictionary that maps patterns to responses
-
-Defines a match_rule function that takes the rules and a statement
-
-Loops through the rules and uses re.search to match the statement against each pattern Returns the response if a match is found
-
-In Main loop: Gets user input statement Calls match_rule to find a matching rule If a match is found, prints the response Otherwise prints a default response
-
-This allows us to easily define rules and responses without needing complex NLP.
